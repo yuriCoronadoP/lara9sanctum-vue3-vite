@@ -14,7 +14,7 @@ import axios from 'axios';
 window.axios = axios;
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-// envia automaticamente la cookie de autenticacion junto con nada solicitud
+// envia automaticamente la cookie de autenticacion junto con cada solicitud
 window.axios.defaults.withCredentials = true
 
 /**
